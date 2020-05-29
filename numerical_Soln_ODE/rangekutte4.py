@@ -7,8 +7,8 @@ t=float(input("enter target x for which y is required:"))
 curx=x0
 cury=y0
 while(curx<t):
-	print(curx)
-	print(cury)
+	print("y("+str(curx)+") = "+str(cury))
+	#print(cury)
 	x=curx
 	y=cury
 	k1=h*eval(expr)
@@ -29,4 +29,4 @@ while(curx<t):
 	print("k: ",k)
 	cury=cury+k
 	curx=curx+h
-print("y=",cury)
+print("y("+str(curx)+") = "+str(cury))
