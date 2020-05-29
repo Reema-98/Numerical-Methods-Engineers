@@ -15,7 +15,7 @@ while(x<t):
 	y=y+(h*f)
 	print("new y:",y)
 	x=x+h
-	x=round(x,1) #otherwise error?
+	#x=round(x,1) #otherwise error?
 	for i in range(3):
 		print("x:",x)
 		f1=eval(expr)
