@@ -1,3 +1,4 @@
+from math import *
 h=float(input('enter h:'))
 x0=float(input('enter x0:'))
 y0=float(input('enter y0:'))
